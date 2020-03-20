@@ -1,11 +1,14 @@
 {
-  "name": "storybook-addon-smart-knobs",
-  "version": "6.0.2",
+  "name": "@unlikelystudio/storybook-addon-smart-knobs",
+  "version": "6.0.3-alpha",
   "description": "Automatically created knobs for storybook.",
-  "repository": "https://github.com/storybooks/addon-smart-knobs",
+  "repository": "https://github.com/unlikelystudio/addon-smart-knobs",
   "license": "MIT",
   "author": "Storybook Team",
   "main": "dist/index.js",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
   "scripts": {
     "clean": "rimraf ./dist",
     "compile": "babel ./src --out-dir ./dist",

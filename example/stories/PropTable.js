@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 import './PropTable.css'
 
-export const PropTable = ({ docgenInfo, color = 'red', ...props }) => (
-  <table className='PropTable' style={{ color }}>
+export const PropTable = ({ docgenInfo, ...props }) => (
+  <table className='PropTable'>
     <thead>
       <tr>
         <th>Property</th>

@@ -15,7 +15,7 @@ storiesOf('Basic', module)
   .addDecorator(withSmartKnobs())
   .addDecorator(withKnobs)
   .add('proptypes', () => <SmartKnobedComponent />)
-  .add('flow', () => <SmartKnobedComponentWithFlow color="black" />)
+  .add('flow', () => <SmartKnobedComponentWithFlow />)
   .add('typescript', () => <SmartKnobedComponentWithTypescript />)
   .add('nested example', () => (
     <div>
